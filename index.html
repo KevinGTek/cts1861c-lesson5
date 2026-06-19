@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenith Legal Consulting</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* Global Styles & High Contrast Palette */
+        :root {
+            --primary-text: #2c3e50; /* Dark charcoal for high contrast WCAG compliance */
+            --secondary-text: #4a5568;
+            --background: #ffffff;
+            --accent-color: #2b6cb0; /* Professional legal blue */
+            --heading-font: 'Merriweather', Georgia, serif;
+            --body-font: 'Open Sans', Arial, sans-serif;
+        }
+
+        body {
+            font-family: var(--body-font);
+            color: var(--primary-text);
+            background-color: var(--background);
+            line-height: 1.6; /* Improved readability */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Logical Typographic Hierarchy */
+        h1, h2, h3 {
+            font-family: var(--heading-font);
+            color: var(--primary-text);
+            margin-bottom: 1rem;
+        }
+
+        h1 { font-size: 2.5rem; }
+        h2 { font-size: 2rem; border-bottom: 2px solid #edf2f7; padding-bottom: 0.5rem; }
+        h3 { font-size: 1.5rem; }
+        
+        p {
+            font-size: 1rem;
+            color: var(--secondary-text);
+            margin-bottom: 1.5rem;
+            /* Left-aligned for proper reading flow, fixing the ragged edge issue */
+            text-align: left; 
+        }
+
+        /* Layout Container */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Header & Navigation */
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            border-bottom: 1px solid #e2e8f0;
+            margin-bottom: 3rem;
+        }
+
+        .logo {
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin: 0;
+            color: var(--primary-text);
+        }
+
+        nav {
+            margin-top: 1.5rem;
+        }
+
+        nav a {
+            font-family: var(--body-font);
+            font-weight: 600;
+            text-decoration: none;
+            color: var(--secondary-text);
+            margin: 0 1rem;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .hero h2 {
+            border: none;
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero h3 {
+            font-style: italic;
+            font-weight: 400;
+            color: var(--secondary-text);
+        }
+
+        .hero p {
+            text-align: center; /* Centered in hero only for impact */
+            max-width: 700px;
+            margin: 1.5rem auto;
+            font-size: 1.1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: #ffffff;
+            font-family: var(--body-font);
+            font-weight: 600;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #1a4971;
+        }
+
+        /* Content Sections */
+        section {
+            margin-bottom: 4rem;
+        }
+
+        /* Fixed unordered list formatting */
+        ul {
+            font-size: 1rem;
+            color: var(--secondary-text);
+            padding-left: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid #e2e8f0;
+            font-size: 0.875rem;
+            color: #718096;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">Zenith Legal</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="hero">
+            <h2>Trusted Counsel for Complex Cases</h2>
+            <h3>We Are Serious (Promise)</h3>
+            <p>Welcome to Zenith Legal Consulting where we provide elite-level representation for commercial disputes, compliance questions, and high-stakes negotiations. Our clients include businesses, nonprofits, and individuals who need clarity fast.</p>
+            <p><strong>Call now!!! (Or maybe email... we're flexible!!!)</strong></p>
+            <a href="#contact" class="btn">Schedule A Consultation</a>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Zenith Legal was founded to bring "peace of mind" to difficult legal moments. We believe that clear communication, trust, and professionalism matter - and our website definitely reflects that with these totally appropriate fonts.</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Business Contract Review (FAST!)</li>
+                <li>Compliance & Policy Guidance</li>
+                <li>Dispute Resolution</li>
+                <li>Risk Assessments & "Strategy"</li>
+            </ul>
+        </section>
+
+        <section id="team">
+            <h2>Our Team</h2>
+            <p>Our attorneys have experience across industries and jurisdictions. We take pride in professional presentation, including headlines that are appropriately sized compared to body text and deliberate font choices that serve a purpose.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                <strong>Email:</strong> info@zenithlegal.example<br>
+                <strong>Phone:</strong> (555) 010-2020<br>
+                <strong>Hours:</strong> 25/8
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Zenith Legal Consulting. All rights reserved. This footer is very readable.</p>
+    </footer>
+
+</body>
+</html>
